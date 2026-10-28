@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f6f7fb; color: #1b1b1f; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 20px; }
+h1 { margin-bottom: 4px; }
+.sub { color: #555; margin-top: 0; }
+form { display: grid; gap: 14px; background: #fff; padding: 20px; border-radius: 12px; border: 1px solid #e6e6ee; }
+label { display: grid; gap: 6px; font-weight: 600; font-size: 14px; }
+input, textarea, select { font: inherit; padding: 9px 11px; border: 1px solid #d5d5e0; border-radius: 8px; font-weight: 400; }
+button { font: inherit; background: #4f46e5; color: #fff; border: 0; padding: 10px 16px; border-radius: 8px; cursor: pointer; }
+button:disabled { opacity: .6; cursor: wait; }
+.error { color: #b91c1c; }
+.result { background: #fff; padding: 20px; border-radius: 12px; border: 1px solid #e6e6ee; margin-top: 20px; }
+.row { display: flex; align-items: center; gap: 12px; }
